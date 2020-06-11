@@ -1,0 +1,34 @@
+<web-app>
+	<servlet>
+		<servlet-name> add</servlet-name>
+		<servlet-class> com.umar.crud.Controller </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> add </servlet-name>
+		<url-pattern> /add.html </url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name> show</servlet-name>
+		<servlet-class> com.umar.crud.Controller1 </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> show </servlet-name>
+		<url-pattern> /show.html </url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name> delete</servlet-name>
+		<servlet-class> com.umar.crud.Controller2 </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> delete </servlet-name>
+		<url-pattern> /delete.html </url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name> update</servlet-name>
+		<servlet-class> com.umar.crud.Controller3 </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> update </servlet-name>
+		<url-pattern> /update.html </url-pattern>
+	</servlet-mapping>
+</web-app>
